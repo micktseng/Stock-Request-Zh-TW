@@ -1,0 +1,762 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * stock_request
+#
+# Translators:
+# OCA Transbot <transbot@odoo-community.org>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-02 03:44+0000\n"
+"PO-Revision-Date: 2018-03-02 03:44+0000\n"
+"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2018\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/oca/teams/23907/"
+"zh_TW/)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: stock_request
+#: code:addons/stock_request/models/stock_move_line.py:20
+#, python-format
+msgid "<li><b>%s</b>: Transferred quantity %s %s</li>"
+msgstr "<li><b>%s</b>: 已轉移數量 %s %s</li>"
+
+#. module: stock_request
+#: model:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "Activates Stock Request Orders"
+msgstr "激活庫存請求單"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_allocation_allocated_product_qty
+msgid "Allocated Quantity"
+msgstr "已分配數量"
+
+#. module: stock_request
+#: model:ir.ui.view,arch_db:stock_request.stock_request_search
+msgid "Archived"
+msgstr "歸檔"
+
+#. module: stock_request
+#: model:ir.ui.view,arch_db:stock_request.stock_request_order_form
+#: model:ir.ui.view,arch_db:stock_request.view_stock_request_form
+msgid "Cancel"
+msgstr "取消"
+
+#. module: stock_request
+#: selection:stock.request,state:0 selection:stock.request.order,state:0
+msgid "Cancelled"
+msgstr "已取消"
+
+#. module: stock_request
+#: model:ir.actions.act_window,help:stock_request.action_stock_request_form
+msgid "Click to add a Stock Request."
+msgstr "點擊新增庫存請求"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract_company_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_allocation_company_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_company_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_kanban_company_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order_company_id
+msgid "Company"
+msgstr "公司"
+
+#. module: stock_request
+#: code:addons/stock_request/models/stock_request.py:170
+#, python-format
+msgid "Company must be equal to the order"
+msgstr "公司必須等於這個訂單"
+
+#. module: stock_request
+#: model:ir.ui.view,arch_db:stock_request.stock_request_order_form
+#: model:ir.ui.view,arch_db:stock_request.view_stock_request_form
+msgid "Confirm"
+msgstr "確認"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_allocation_create_uid
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_create_uid
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order_create_uid
+msgid "Created by"
+msgstr "創建人"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_allocation_create_date
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_create_date
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order_create_date
+msgid "Created on"
+msgstr "創建時間"
+
+#. module: stock_request
+#: model:ir.model.fields,help:stock_request.field_stock_request_expected_date
+#: model:ir.model.fields,help:stock_request.field_stock_request_order_expected_date
+msgid "Date when you expect to receive the goods."
+msgstr "您希望收到貨物的日期"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order_picking_count
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_picking_count
+msgid "Delivery Orders"
+msgstr "發貨單"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract_display_name
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_allocation_display_name
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_display_name
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order_display_name
+msgid "Display Name"
+msgstr "顯示名稱"
+
+#. module: stock_request
+#: model:ir.ui.view,arch_db:stock_request.view_stock_request_form
+#: selection:stock.request,state:0 selection:stock.request.order,state:0
+msgid "Done"
+msgstr "完成"
+
+#. module: stock_request
+#: selection:stock.request,state:0 selection:stock.request.order,state:0
+msgid "Draft"
+msgstr "草稿"
+
+#. module: stock_request
+#: model:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "Enable Orders"
+msgstr "啟用訂單"
+
+#. module: stock_request
+#: model:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "Enable Stock Requests Kanban cards"
+msgstr "啟用庫存請求看板視圖"
+
+#. module: stock_request
+#: model:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "Enable Stock Requests for Purchases"
+msgstr "啟用購買的庫存請求"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_expected_date
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order_expected_date
+msgid "Expected Date"
+msgstr "期望交貨日期"
+
+#. module: stock_request
+#: code:addons/stock_request/models/stock_request.py:177
+#, python-format
+msgid "Expected date must be equal to the order"
+msgstr "期望交貨日期必須等於這個訂單"
+
+#. module: stock_request
+#: model:ir.ui.view,arch_db:stock_request.stock_request_search
+msgid "Group By"
+msgstr "分組"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_res_config_settings_group_stock_request_order
+msgid "Group Stock Request Order"
+msgstr "分組庫存請求單"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_allocation_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order_id_5149
+msgid "ID"
+msgstr ""
+
+#. module: stock_request
+#: selection:stock.request,state:0 selection:stock.request.order,state:0
+msgid "In progress"
+msgstr "進行中"
+
+#. module: stock_request
+#: model:ir.model,name:stock_request.model_stock_location
+msgid "Inventory Locations"
+msgstr "庫存位置"
+
+#. module: stock_request
+#: model:ir.model,name:stock_request.model_stock_location_route
+msgid "Inventory Routes"
+msgstr "庫存路線"
+
+#. module: stock_request
+#: model:ir.ui.view,arch_db:stock_request.stock_request_order_form
+msgid "Items"
+msgstr ""
+
+#. module: stock_request
+#: model:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "Kanban"
+msgstr "看板"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request___last_update
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract___last_update
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_allocation___last_update
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order___last_update
+msgid "Last Modified on"
+msgstr "最後修改時間"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_allocation_write_uid
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order_write_uid
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_write_uid
+msgid "Last Updated by"
+msgstr "最後更新者"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_allocation_write_date
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order_write_date
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_write_date
+msgid "Last Updated on"
+msgstr "最後更新時間"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract_location_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_kanban_location_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_location_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order_location_id
+#: model:ir.ui.view,arch_db:stock_request.stock_request_search
+msgid "Location"
+msgstr "庫位"
+
+#. module: stock_request
+#: code:addons/stock_request/models/stock_request.py:153
+#, python-format
+msgid "Location must be equal to the order"
+msgstr "庫位必須等於訂單"
+
+#. module: stock_request
+#: model:ir.ui.menu,name:stock_request.menu_stock_request_master_data
+msgid "Master Data"
+msgstr ""
+
+#. module: stock_request
+#: model:ir.model.fields,help:stock_request.field_stock_request_abstract_procurement_group_id
+#: model:ir.model.fields,help:stock_request.field_stock_request_kanban_procurement_group_id
+#: model:ir.model.fields,help:stock_request.field_stock_request_order_procurement_group_id
+#: model:ir.model.fields,help:stock_request.field_stock_request_procurement_group_id
+msgid ""
+"Moves created through this stock request will be put in this procurement "
+"group. If none is given, the moves generated by procurement rules will be "
+"grouped into one big picking."
+msgstr ""
+"庫存移動建立通過此庫存請求將被放入此補貨群組"
+"如果沒有給出，這庫存移動產生靠補貨規則將被分組到一個大的調撥單"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract_name
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_kanban_name
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_name
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order_name
+msgid "Name"
+msgstr "名稱"
+
+#. module: stock_request
+#: sql_constraint:stock.request:0 sql_constraint:stock.request.abstract:0
+msgid "Name must be unique"
+msgstr "名稱必須唯一"
+
+#. module: stock_request
+#: code:addons/stock_request/models/stock_request_order.py:255
+#, python-format
+msgid "Only orders on draft state can be unlinked"
+msgstr "只有在草稿狀態的定單請求單能被取消"
+
+#. module: stock_request
+#: code:addons/stock_request/models/stock_request.py:314
+#, python-format
+msgid "Only requests on draft state can be unlinked"
+msgstr "只有在草稿狀態的庫存請求能被取消"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_allocation_open_product_qty
+msgid "Open Quantity"
+msgstr ""
+
+#. module: stock_request
+#: model:ir.ui.menu,name:stock_request.menu_stock_request_operations
+msgid "Operations"
+msgstr "操作"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order_id
+msgid "Order"
+msgstr "訂單"
+
+#. module: stock_request
+#: model:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "Orders"
+msgstr "訂單"
+
+#. module: stock_request
+#: model:ir.model,name:stock_request.model_stock_move_line
+msgid "Packing Operation"
+msgstr ""
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order_picking_ids
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_picking_ids
+msgid "Pickings"
+msgstr "調撥單"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract_procurement_group_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_kanban_procurement_group_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order_procurement_group_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_procurement_group_id
+msgid "Procurement Group"
+msgstr "補貨組"
+
+#. module: stock_request
+#: model:ir.model,name:stock_request.model_procurement_rule
+msgid "Procurement Rule"
+msgstr "補貨規則"
+
+#. module: stock_request
+#: code:addons/stock_request/models/stock_request.py:163
+#, python-format
+msgid "Procurement group must be equal to the order"
+msgstr "補貨組必須等於這個庫存請求單"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract_product_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_allocation_product_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_kanban_product_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_product_id
+msgid "Product"
+msgstr "產品"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract_product_uom_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_kanban_product_uom_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_product_uom_id
+msgid "Product Unit of Measure"
+msgstr "單位"
+
+#. module: stock_request
+#: model:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "Purchases"
+msgstr "採購"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_qty_done
+msgid "Qty Done"
+msgstr "完成數量"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_qty_in_progress
+msgid "Qty In Progress"
+msgstr "進行中數量"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract_product_uom_qty
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_kanban_product_uom_qty
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_product_uom_qty
+msgid "Quantity"
+msgstr "數量"
+
+#. module: stock_request
+#: model:ir.model.fields,help:stock_request.field_stock_request_qty_done
+msgid "Quantity completed"
+msgstr "已完成數量"
+
+#. module: stock_request
+#: model:ir.model.fields,help:stock_request.field_stock_request_qty_in_progress
+msgid "Quantity in progress."
+msgstr "進行中數量"
+
+#. module: stock_request
+#: model:ir.model.fields,help:stock_request.field_stock_request_abstract_product_qty
+#: model:ir.model.fields,help:stock_request.field_stock_request_kanban_product_qty
+#: model:ir.model.fields,help:stock_request.field_stock_request_product_qty
+msgid "Quantity in the default UoM of the product"
+msgstr "在商品預設單位的數量"
+
+#. module: stock_request
+#: model:ir.model.fields,help:stock_request.field_stock_request_allocation_requested_product_uom_qty
+msgid ""
+"Quantity of the stock request allocated to the stock move, in the UoM of the "
+"Stock Request"
+msgstr "庫存請求"
+
+#. module: stock_request
+#: model:ir.model.fields,help:stock_request.field_stock_request_allocation_allocated_product_qty
+#: model:ir.model.fields,help:stock_request.field_stock_request_allocation_requested_product_qty
+msgid ""
+"Quantity of the stock request allocated to the stock move, in the default "
+"UoM of the product"
+msgstr ""
+"庫存請求數量分配到庫存移動，在預設的商品單位"
+
+#. module: stock_request
+#: model:ir.model.fields,help:stock_request.field_stock_request_abstract_product_uom_qty
+#: model:ir.model.fields,help:stock_request.field_stock_request_kanban_product_uom_qty
+#: model:ir.model.fields,help:stock_request.field_stock_request_product_uom_qty
+msgid "Quantity, specified in the unit of measure indicated in the request."
+msgstr "數量，以請求中指示的度量單位指定"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract_product_qty
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_kanban_product_qty
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_product_qty
+msgid "Real Quantity"
+msgstr "真實數量"
+
+#. module: stock_request
+#: code:addons/stock_request/models/stock_move_line.py:12
+#, python-format
+msgid "Receipt confirmation %s for your Request %s"
+msgstr "你的請求 %s，收據確認 %s"
+
+#. module: stock_request
+#: selection:stock.request,picking_policy:0
+#: selection:stock.request.order,picking_policy:0
+msgid "Receive all products at once"
+msgstr "一次接收全部商品"
+
+#. module: stock_request
+#: selection:stock.request,picking_policy:0
+#: selection:stock.request.order,picking_policy:0
+msgid "Receive each product when available"
+msgstr "當可用時接收每個商品"
+
+#. module: stock_request
+#: model:ir.actions.server,name:stock_request.action_template_generate_stock_request_orders
+#: model:ir.actions.server,name:stock_request.action_variant_generate_stock_request_orders
+msgid "Request Stock"
+msgstr "庫存請求"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_allocation_requested_product_qty
+msgid "Requested Quantity"
+msgstr "請求數量"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_allocation_requested_product_uom_qty
+msgid "Requested Quantity (UoM)"
+msgstr "請求單位 (Uom)"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order_requested_by
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_requested_by
+msgid "Requested by"
+msgstr "請求者"
+
+#. module: stock_request
+#: code:addons/stock_request/models/stock_request.py:139
+#, python-format
+msgid "Requested by must be equal to the order"
+msgstr "請求者必須等於這個訂單"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract_route_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract_route_ids
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_kanban_route_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_kanban_route_ids
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_route_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_route_ids
+msgid "Route"
+msgstr "路線"
+
+#. module: stock_request
+#: model:ir.ui.view,arch_db:stock_request.stock_request_order_form
+#: model:ir.ui.view,arch_db:stock_request.view_stock_request_form
+msgid "Set to Draft"
+msgstr "設定到草稿"
+
+#. module: stock_request
+#: model:ir.actions.act_window,name:stock_request.action_stock_request_config
+#: model:ir.ui.menu,name:stock_request.menu_stock_request_config
+msgid "Settings"
+msgstr "設定"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order_picking_policy
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_picking_policy
+msgid "Shipping Policy"
+msgstr "運貨策略"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order_state
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_state
+msgid "Status"
+msgstr "狀態"
+
+#. module: stock_request
+#: model:ir.model,name:stock_request.model_stock_move
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_allocation_stock_move_id
+msgid "Stock Move"
+msgstr ""
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_move_ids
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order_move_ids
+msgid "Stock Moves"
+msgstr "庫存移動"
+
+#. module: stock_request
+#: model:ir.model,name:stock_request.model_stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_allocation_stock_request_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order_stock_request_ids
+#: model:ir.module.category,name:stock_request.module_category_stock_request
+#: model:ir.ui.view,arch_db:stock_request.stock_request_order_form
+#: model:ir.ui.view,arch_db:stock_request.view_stock_request_form
+msgid "Stock Request"
+msgstr "庫存請求"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_picking_stock_request_count
+msgid "Stock Request #"
+msgstr "庫存請求 #"
+
+#. module: stock_request
+#: model:ir.model,name:stock_request.model_stock_request_allocation
+#: model:ir.model.fields,field_description:stock_request.field_stock_move_allocation_ids
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_allocation_ids
+msgid "Stock Request Allocation"
+msgstr "庫存請求分配"
+
+#. module: stock_request
+#: model:ir.ui.view,arch_db:stock_request.view_move_form
+#: model:ir.ui.view,arch_db:stock_request.view_move_picking_form
+#: model:ir.ui.view,arch_db:stock_request.view_stock_request_allocation_form
+#: model:ir.ui.view,arch_db:stock_request.view_stock_request_allocation_tree
+msgid "Stock Request Allocations"
+msgstr "庫存請求分配"
+
+#. module: stock_request
+#: model:res.groups,name:stock_request.group_stock_request_manager
+msgid "Stock Request Manager"
+msgstr "庫存請求管理"
+
+#. module: stock_request
+#: model:ir.model,name:stock_request.model_stock_request_order
+#: model:res.groups,name:stock_request.group_stock_request_order
+msgid "Stock Request Order"
+msgstr "庫存請求單"
+
+#. module: stock_request
+#: model:ir.actions.act_window,name:stock_request.stock_request_order_action
+#: model:ir.ui.menu,name:stock_request.stock_request_order_menu
+msgid "Stock Request Orders"
+msgstr "庫存請求單"
+
+#. module: stock_request
+#: model:ir.model,name:stock_request.model_stock_request_abstract
+msgid "Stock Request Template"
+msgstr "庫存請求樣板"
+
+#. module: stock_request
+#: model:res.groups,name:stock_request.group_stock_request_user
+msgid "Stock Request User"
+msgstr "庫存請求使用者"
+
+#. module: stock_request
+#: sql_constraint:stock.request:0 sql_constraint:stock.request.order:0
+msgid "Stock Request name must be unique"
+msgstr "庫存請求名必須唯一"
+
+#. module: stock_request
+#: model:ir.actions.act_window,name:stock_request.action_stock_request_form
+#: model:ir.model.fields,field_description:stock_request.field_stock_move_stock_request_ids
+#: model:ir.model.fields,field_description:stock_request.field_stock_picking_stock_request_ids
+#: model:ir.ui.menu,name:stock_request.menu_stock_request
+#: model:ir.ui.menu,name:stock_request.menu_stock_request_root
+#: model:ir.ui.view,arch_db:stock_request.stock_request_order_form
+#: model:ir.ui.view,arch_db:stock_request.stock_request_search
+#: model:ir.ui.view,arch_db:stock_request.view_picking_form
+#: model:ir.ui.view,arch_db:stock_request.view_stock_request_form
+#: model:ir.ui.view,arch_db:stock_request.view_stock_request_tree
+msgid "Stock Requests"
+msgstr "庫存請求"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_res_config_settings_module_stock_request_kanban
+msgid "Stock Requests Kanban integration"
+msgstr "庫存請求看板整合"
+
+#. module: stock_request
+#: model:ir.ui.view,arch_db:stock_request.stock_request_search
+msgid "Stock Requests Search"
+msgstr "庫存請求搜尋"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_res_config_settings_module_stock_request_purchase
+msgid "Stock Requests for Purchases"
+msgstr "採購的庫存請求"
+
+#. module: stock_request
+#: model:ir.ui.view,arch_db:stock_request.stock_request_order_form
+msgid "Stock request"
+msgstr "庫存請求"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order_stock_request_count
+#: model:ir.ui.view,arch_db:stock_request.stock_request_order_tree
+msgid "Stock requests"
+msgstr "庫存請求"
+
+#. module: stock_request
+#: code:addons/stock_request/models/stock_move.py:38
+#: code:addons/stock_request/models/stock_request_order.py:272
+#, python-format
+msgid "The company of the stock request must match with that of the location."
+msgstr "公司的庫存請求必須匹配該庫位"
+
+#. module: stock_request
+#: code:addons/stock_request/models/stock_request_order.py:263
+#, python-format
+msgid "The company of the stock request must match with that of the warehouse."
+msgstr "公司的庫存請求必須匹配該庫存"
+
+#. module: stock_request
+#: code:addons/stock_request/models/stock_move_line.py:15
+#, python-format
+msgid ""
+"The following requested items from Stock Request %s have now been received "
+"in %s using Picking %s:"
+msgstr ""
+"現在已經使用調撥 ％s 在 ％s 中收到了來自庫存請求 ％s 的以下請求項目："
+
+#. module: stock_request
+#: code:addons/stock_request/models/stock_request.py:187
+#, python-format
+msgid "The picking policy must be equal to the order"
+msgstr "運貨策略必須等於這個庫存請求單"
+
+#. module: stock_request
+#: model:ir.model,name:stock_request.model_stock_picking
+msgid "Transfer"
+msgstr "轉移"
+
+#. module: stock_request
+#: model:ir.ui.view,arch_db:stock_request.stock_request_order_form
+#: model:ir.ui.view,arch_db:stock_request.view_stock_request_form
+msgid "Transfers"
+msgstr "轉移"
+
+#. module: stock_request
+#: code:addons/stock_request/models/stock_request_order.py:302
+#, python-format
+msgid ""
+"Unfortunately it seems you do not have the necessary rights for creating "
+"stock requests. Please contact your administrator."
+msgstr ""
+"不幸的是，您似乎沒有必需的權限來創建庫存請求。請聯繫您的管理員。"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_allocation_product_uom_id
+msgid "UoM"
+msgstr "計量單位"
+
+#. module: stock_request
+#: model:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "Use Kanban cards for consumable products"
+msgstr "消耗品使用看板"
+
+#. module: stock_request
+#: model:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "Use Purchases with Stock Requests"
+msgstr "使用採購用庫存請求"
+
+#. module: stock_request
+#: model:ir.model,name:stock_request.model_stock_warehouse
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract_warehouse_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_kanban_warehouse_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order_warehouse_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_warehouse_id
+#: model:ir.ui.view,arch_db:stock_request.stock_request_search
+msgid "Warehouse"
+msgstr "倉庫"
+
+#. module: stock_request
+#: code:addons/stock_request/models/stock_request.py:146
+#, python-format
+msgid "Warehouse must be equal to the order"
+msgstr "倉庫必須等於這個庫存請求單"
+
+#. module: stock_request
+#: code:addons/stock_request/models/stock_location.py:24
+#, python-format
+msgid ""
+"You cannot change the company of the location, as it is already assigned to "
+"stock request orders that belong to another company."
+msgstr ""
+"你不能改變公司的庫位當它已經分配屬於另一間公司的庫存請求單"
+
+#. module: stock_request
+#: code:addons/stock_request/models/stock_location.py:17
+#, python-format
+msgid ""
+"You cannot change the company of the location, as it is already assigned to "
+"stock requests that belong to another company."
+msgstr ""
+"你不能改變公司的庫位當它已經分配屬於另一間公司的庫存請求"
+
+#. module: stock_request
+#: code:addons/stock_request/models/stock_location_route.py:17
+#, python-format
+msgid ""
+"You cannot change the company of the route, as it is already assigned to "
+"stock requests that belong to another company."
+msgstr ""
+"你不能改變公司的路線當它已經分配屬於另一間公司的庫存請求"
+
+#. module: stock_request
+#: code:addons/stock_request/models/stock_warehouse.py:26
+#, python-format
+msgid ""
+"You cannot change the company of the warehouse, as it is already assigned to "
+"stock request orders that belong to another company."
+msgstr ""
+"你不能改變公司的倉庫當它已經分配屬於另一間公司的庫存請求單"
+
+#. module: stock_request
+#: code:addons/stock_request/models/stock_warehouse.py:18
+#, python-format
+msgid ""
+"You cannot change the company of the warehouse, as it is already assigned to "
+"stock requests that belong to another company."
+msgstr ""
+"你不能改變公司的路線當它已經分配屬於另一間公司的庫存請求"
+
+#. module: stock_request
+#: code:addons/stock_request/models/stock_request_abstract.py:134
+#, python-format
+msgid "You have entered a location that is assigned to another company."
+msgstr "你已經輸入一個分配給另一個公司的庫位"
+
+#. module: stock_request
+#: code:addons/stock_request/models/stock_request_abstract.py:129
+#, python-format
+msgid "You have entered a product that is assigned to another company."
+msgstr "你已經輸入一個分配給另一個公司的產品"
+
+#. module: stock_request
+#: code:addons/stock_request/models/stock_request_abstract.py:143
+#, python-format
+msgid "You have entered a route that is assigned to another company."
+msgstr "你已經輸入一個分配給另一個公司的路線"
+
+#. module: stock_request
+#: code:addons/stock_request/models/stock_request_abstract.py:138
+#, python-format
+msgid "You have entered a warehouse that is assigned to another company."
+msgstr "你已經輸入一個分配給另一個公司的倉庫"
+
+#. module: stock_request
+#: code:addons/stock_request/models/stock_request_abstract.py:153
+#, python-format
+msgid ""
+"You have to select a product unit of measure in the same category than the "
+"default unit of measure of the product"
+msgstr "你必須選擇一個和商品預設單位相同的商品的單位分類"
+
+#. module: stock_request
+#: model:ir.model,name:stock_request.model_res_config_settings
+msgid "res.config.settings"
+msgstr ""
